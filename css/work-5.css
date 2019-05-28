@@ -1,3 +1,7 @@
+/* body {
+    margin: 0 auto;
+} */
+
 .active {
     color: black;
     font-weight: bold;
@@ -21,4 +25,9 @@
 
 .display-4 {
     font-size: 24px;
+}
+
+.table__adres {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

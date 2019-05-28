@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-3 .bg-white">
+            <div class="col-3 bg-white">
                 <div class="logo">
                     <img class="logo__img my-3" src="img/Слой 6.png" alt="логотип">
                 </div>
@@ -52,11 +52,11 @@
             </div>
             <div class="col-9 main-content bg-light pl-5">
 
-                <div class="container">
+                <div class="container pl-0">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4 col-6 p-0">
                             <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb bg-transparent">
+                                <ol class="breadcrumb bg-transparent pl-0 pr-0">
                                     <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Home</a></li>
                                     <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Library</a></li>
                                 </ol>
@@ -88,33 +88,36 @@
                 </div>
 
                 <div class="row py-3">
-                    <button class="btn btn-success " type="submit" data-toggle="modal" data-target="#exampleModal"><img class="mr-1" src="img/+.png">Создать магазин</button>
+                    <button class="btn btn-success" type="submit" data-toggle="modal" data-target="#exampleModal"><img class="mr-1" src="img/+.png">Создать магазин</button>
                 </div>
                 <div class="row py-3">
                     <h1 class="display-4 font-weight-bold">Display 4</h1>
                 </div>
-                <div class="row">
+                <div class="row pr-4">
                     <table class="table">
                         <thead>
-                            <tr>
+                            <tr class="d-flex flex-wrap">
                                 <th scope="col" class="border-top-0 border-bottom-0">#</th>
-                                <th scope="col" class="border-top-0 border-bottom-0">Имя</th>
-                                <th scope="col" class="border-top-0 border-bottom-0">Фамилия</th>
+                                <th scope="col" class="border-top-0 border-bottom-0">Название</th>
+                                <th scope="col" class="border-top-0 border-bottom-0">Адрес</th>
                                 <th scope="col" class="border-top-0 border-bottom-0">Действие</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class="d-flex flex-wrap border-bottom border-secondary">
                                 <th scope="row" class="border-top-0">1</th>
-                                <td class="border-top-0">Mark</td>
-                                <td class="border-top-0">Otto</td>
-                                <td class="border-top-0"><button class="btn btn-success " type="submit">Button</button> <button class="btn btn-success " type="submit">Button</button></td>
+                                <td class="border-top-0">Дипломаня работа</td>
+                                <td class="border-top-0">http://www.work5.ru/services</td>
+                                <td class="border-top-0">
+                                    <button class="btn btn-success" type="submit"><img class="mr-2" src="img/pencil (1).png">Редактировать</button>
+                                    <button class="btn btn-secondary" type="submit"><img class="mr-2" src="img/cancel (1).png">Редактировать</button></td>
                             </tr>
-                            <tr>
+                            <tr class="d-flex flex-wrap border-bottom border-secondary">
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td class="border-top-0">Дипломаня работа</td>
+                                <td class="border-top-0">http://www.work5.ru/services</td>
+                                <td class="border-top-0"> <button class="btn btn-success" type="submit"><img class="mr-2" src="img/pencil (1).png">Редактировать</button>
+                                    <button class="btn btn-secondary" type="submit"><img class="mr-2" src="img/cancel (1).png">Редактировать</button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -134,9 +137,9 @@
               </button>
                 </div>
                 <div class="modal-body">
-                    <div class="container">
+                    <div class="container p-0">
                         <div class="row justify-content-between">
-                            <div class="col-5">
+                            <div class="col-7 col-sm-5">
                                 <div class="row mx-auto font-weight-bold">Шаблон</div>
                                 <div class="btn-group w-100 border border-secondary rounded">
                                     <button type="button" class="btn btn-white">Стандартный</button>
@@ -149,7 +152,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-5">
+                            <div class="col-7 col-sm-5">
                                 <div class="row mx-auto font-weight-bold">Цветовая схема</div>
                                 <div class="btn-group w-100 border border-secondary rounded">
                                     <button type="button" class="btn btn-white">Классическая</button>
@@ -164,9 +167,7 @@
                             </div>
                         </div>
 
-
-
-                        <div class="row">
+                        <div class="row px-3">
                             <form class="w-100">
                                 <div class="form-group">
                                     <label for="formGroupExampleInput">Example label</label>
@@ -180,9 +181,6 @@
                             </form>
                         </div>
 
-
-
-
                         <div class="col-auto media bg-white rounded p-0">
                             <img src="img/warning.png" class="align-self-center mr-3 rounded-circle" alt="Аватар">
                             <div class="media-body">
@@ -192,16 +190,12 @@
                             </div>
                         </div>
 
-                        <div class="row">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="row px-3">
+                            <button type="button" class="btn btn-secondary w-25" data-dismiss="modal">отмена</button>
+                            <button type="button" class="btn btn-success ml-3 w-25">создать</button>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
     </div>
