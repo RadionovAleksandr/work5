@@ -1,0 +1,20 @@
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.breadcrumb-link {
+    font-size: 14px;
+}
