@@ -50,21 +50,160 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-9 main-content .bg-light">
-                <div class="row">
+            <div class="col-9 main-content bg-light pl-5">
 
-                    <div class="col-3">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-transparent">
-                                <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Library</a></li>
-                            </ol>
-                        </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb bg-transparent">
+                                    <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Library</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="col-8 my-3">
+                            <div class="container">
+                                <div class="row justify-content-end">
+                                    <div class="col-auto p-3 border border-secondary rounded">
+                                        <img src="img/envelope (1).png" class=" float-right" alt="иконка почты">
+                                    </div>
+                                    <div class="col-auto media bg-white rounded ml-3">
+                                        <img src="img/Слой 1.jpg" class="align-self-center mr-3 rounded-circle" alt="Аватар">
+                                        <div class="media-body">
+
+                                            <p class="mt-10 my-3">UserName UserSecondName</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-9"></div>
+
+                </div>
+                <div class="row-12">
+                    <div class="col">
+
+                    </div>
+                </div>
+
+                <div class="row py-3">
+                    <button class="btn btn-success " type="submit" data-toggle="modal" data-target="#exampleModal"><img class="mr-1" src="img/+.png">Создать магазин</button>
+                </div>
+                <div class="row py-3">
+                    <h1 class="display-4 font-weight-bold">Display 4</h1>
+                </div>
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="border-top-0 border-bottom-0">#</th>
+                                <th scope="col" class="border-top-0 border-bottom-0">Имя</th>
+                                <th scope="col" class="border-top-0 border-bottom-0">Фамилия</th>
+                                <th scope="col" class="border-top-0 border-bottom-0">Действие</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="border-top-0">1</th>
+                                <td class="border-top-0">Mark</td>
+                                <td class="border-top-0">Otto</td>
+                                <td class="border-top-0"><button class="btn btn-success " type="submit">Button</button> <button class="btn btn-success " type="submit">Button</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Создать магазин</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-5">
+                                <div class="row mx-auto font-weight-bold">Шаблон</div>
+                                <div class="btn-group w-100 border border-secondary rounded">
+                                    <button type="button" class="btn btn-white">Стандартный</button>
+                                    <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Винтаж</a>
+                                        <a class="dropdown-item" href="#">2007</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="row mx-auto font-weight-bold">Цветовая схема</div>
+                                <div class="btn-group w-100 border border-secondary rounded">
+                                    <button type="button" class="btn btn-white">Классическая</button>
+                                    <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Винтаж</a>
+                                        <a class="dropdown-item" href="#">2007</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <form class="w-100">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Example label</label>
+                                    <div class="container">
+                                        <div class="row">
+                                            <input type="text" class="form-control w-75" id="formGroupExampleInput" placeholder="Example input">
+                                            <input class="form-control w-25" type="text" placeholder="Readonly input here…" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+
+
+                        <div class="col-auto media bg-white rounded p-0">
+                            <img src="img/warning.png" class="align-self-center mr-3 rounded-circle" alt="Аватар">
+                            <div class="media-body">
+
+                                <p class="mt-10 my-3">В названии домена разрешены латиница и "-", запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). подробнее по <a>ссылке</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            buttons
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
     </div>
 
     <!-- Optional JavaScript -->
