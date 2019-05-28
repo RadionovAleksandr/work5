@@ -1,3 +1,15 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .btn--creat {
+        padding: 7px 19px;
+    }
+    
+    .container-main {
+        max-width: 1440px;
+    }
+    
     @media (max-width: 992px) {
         .nav__img {
             padding-right: 70px;
@@ -25,11 +37,20 @@
         font-size: 14px;
     }
     
-    .display-4 {
-        font-size: 24px;
+    .table {
+        font-size: 14px;
     }
     
-    .table__adres {
-        overflow: hidden;
-        text-overflow: ellipsis;
+    .display-4 {
+        font-size: 20px;
+    }
+    
+    .modal-dialog {
+        min-width: 600px;
+        top: 130px;
+        left: -80px;
+    }
+    
+    .form-control--violet {
+        background-color: #6666CC;
     }
