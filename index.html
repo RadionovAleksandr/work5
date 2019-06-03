@@ -14,111 +14,97 @@
 </head>
 
 <body>
-    <div class="container container-main px-0">
-        <div class="row">
-            <div class="col-2 bg-white pl-0 ml-0 pl-md-3 pr-1">
+    <section class="my-shop container px-0">
+        <div class="my-shop__wrap row">
+            <div class="my-shop__menu-wrap bg-white">
                 <div class="logo">
                     <a href="#">
                         <img class="logo__img my-3 mx-3" src="img/Слой 6.png" alt="логотип">
                     </a>
                 </div>
-                <ul class="nav flex-column">
-                    <li class="nav-item ">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/web-page-home.svg" alt="">Глвная</a>
+                <ul class="menu-list flex-column pl-3">
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class=" menu-list__img" src="img/web-page-home.svg" alt="">Глвная</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/shopping-cart.png" alt="">Мои магазины</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link menu-list__link--active text-secondary" href="#"><img class="menu-list__img" src="img/shopping-cart.png" alt="">Мои магазины</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/megaphone.png" alt="">Промоматериалы</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/megaphone.png" alt="">Промоматериалы</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/pie-chart.png" alt="">Статистика</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/pie-chart.png" alt="">Статистика</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/wallet.png" alt="">Баланс</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/wallet.png" alt="">Баланс</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/profile.png" alt="">Персональные данные</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/profile.png" alt="">Персональные данные</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/information.png" alt="">FAQ</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/information.png" alt="">FAQ</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/music-and-multimedia.png" alt="">Техподдержка</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/music-and-multimedia.png" alt="">Техподдержка</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary pl-md-3 pl-0 pr-0" href="#"><img class="mr-3 nav__img" src="img/logout.png" alt="">Выход</a>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link text-secondary" href="#"><img class="menu-list__img" src="img/logout.png" alt="">Выход</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-10 bg-light pl-5 pr-0">
-
-                <div class="container pl-0 pl-5 log-10">
-                    <div class="row">
-                        <div class="col-md-4 col-12 p-0">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb bg-transparent pl-0 pr-0">
-                                    <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Главная</a></li>
-                                    <li class="breadcrumb-item"><a class="breadcrumb-link text-secondary" href="#">Мои магазины</a></li>
-                                </ol>
-                            </nav>
+            <div class="main-contant bg-light">
+                <div class="top-block row">
+                    <div class="top-block__breadcrumb-wrap col-md-4 col-12">
+                        <nav aria-label="top-block__breadcrumb">
+                            <ol class="top-block__breadcrumb-list breadcrumb bg-transparent">
+                                <li class="top-block__breadcrumb-item"><a class="top-block__breadcrumb-link text-secondary" href="#">Главная</a></li>
+                                <li class="top-block__breadcrumb-item"><a class="top-block__breadcrumb-link text-secondary" href="#">Мои магазины</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="top-block__user-inform col-md-8 col-12 row justify-content-md-end justify-content-start px-md-3 px-0 pt-2 ">
+                        <div class="top-block__img-mail-wrap p-4 ml-3 ml-sm-0 border border-secondary rounded order-10 order-md-1">
+                            <img src="img/envelope (1).png" class="top-block__img float-right" alt="иконка почты">
                         </div>
-                        <div class="col-md-8 col-12 my-3 p-0">
-                            <div class="container p-0">
-                                <div class="row justify-content-md-end ustify-content-start pt-2">
-                                    <div class="col-auto p-3 ml-3 ml-sm-0 border border-secondary rounded order-10 order-md-1">
-                                        <img src="img/envelope (1).png" class=" float-right" alt="иконка почты">
-                                    </div>
-                                    <div class="col-auto media px-1 mr-lg-5 mr-4 bg-white rounded ml-3 order-1 order-md-10">
-                                        <img src="img/Слой 1.jpg" class="align-self-center mr-3 rounded-circle" alt="Аватар">
-                                        <div class="media-body">
-
-                                            <p class="mt-10 my-3 text-secondary">Максим Добжанский</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="top-block__img-user-wrap media px-4 bg-white rounded ml-md-3 ml-0 order-1 order-md-10 mr-3">
+                            <img src="img/Слой 1.jpg" class="top-block__img-user align-self-center mr-3 rounded-circle" alt="Аватар">
+                            <div class="top-block__wrap-user-text media-body">
+                                <p class="top-block__user-text px-2 mt-10 text-secondary">Максим Добжанский</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="row-12">
-                    <div class="col">
-
-                    </div>
+                <div class="main-contant__btn-wrap row">
+                    <button class="btn btn-success main-contant__btn" type="submit" data-toggle="modal" data-target="#exampleModal">
+                        <img class="main-contant__img mr-3" src="img/+.png">Создать свой магазин</button>
                 </div>
-
-                <div class="row py-2 ml-5">
-                    <button class="btn btn-success btn--creat" type="submit" data-toggle="modal" data-target="#exampleModal"><img class="mr-1" src="img/+.png">Создать магазин</button>
+                <div class="main-contant__title-wrap row">
+                    <h1 class="main-contant__title display-4 font-weight-bold">Управление магазинами</h1>
                 </div>
-                <div class="row py-3 ml-5">
-                    <h1 class="display-4 font-weight-bold">Управление магазинами</h1>
-                </div>
-                <div class="pr-5 pt-3 pl-4 ml-5 bg-white col-7 col-xl-11 shadow p-3 mb-5 bg-white rounded">
-                    <table class="table">
+                <div class="main-contant__table-wrap bg-white col-11 col-md-10 col-xl-11 shadow mb-5 bg-white rounded">
+                    <table class="table table-set">
                         <thead>
-                            <tr class="d-flex flex-wrap">
-                                <th scope="col" class="border-top-0 border-bottom-0 col-1 mr-5">№</th>
-                                <th scope="col" class="border-top-0 border-bottom-0 col-3">Название</th>
-                                <th scope="col" class="border-top-0 border-bottom-0 col-3">Адрес</th>
-                                <th scope="col" class=" border-top-0 border-bottom-0 col-3 pl-5 d-none d-xl-block">Действие</th>
+                            <tr class="table-set__row d-flex flex-wrap main-contant__table">
+                                <th scope="col" class="table-set__cell border-top-0 border-bottom-0 col-1 mr-5">№</th>
+                                <th scope="col" class="table-set__cell border-top-0 border-bottom-0 col-3 px-0">Название</th>
+                                <th scope="col" class="table-set__cell border-top-0 border-bottom-0 col-3 px-lg-0 pl-3">Адрес</th>
+                                <th scope="col" class="table-set__cell border-top-0 border-bottom-0 col-3 pl-4 d-none d-xl-block">Действие</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="d-flex flex-wrap border-bottom border-secondary pt-1">
-                                <th scope="row" class="border-top-0 font-weight-normal col-1 py-3 mr-5 align-self-center">12345</th>
-                                <td class="border-top-0 col-3 py-3 align-self-center">Дипломная работа</td>
-                                <td class="border-top-0 col-3 py-3 mr-3 align-self-center">http://www.work5.ru/services</td>
-                                <td class="border-top-0 col-xl-4 col-12 pl-3 pl-xl-4 py-3 pr-0 align-self-center">
+                            <tr class="table-set__row d-flex flex-wrap border-bottom border-secondary pt-1">
+                                <th scope="row" class="table-set__cell border-top-0 font-weight-normal col-1 py-3 mr-5 align-self-center">12345</th>
+                                <td class="table-set__cell border-top-0 col-3 py-3 px-0 align-self-center">Дипломная работа</td>
+                                <td class="table-set__cell border-top-0 col-3 py-3 px-0 px-lg-0 pl-3 align-self-center">http://www.work5.ru/services</td>
+                                <td class="table-set__cell border-top-0 col-xl-4 col-12 pl-3 pl-xl-4 py-3 pr-0 align-self-center">
                                     <button class="btn btn-success f-size-12 mr-1 mb-1" type="submit"><img class="mr-2" src="img/pencil (1).png">Редактировать</button>
                                     <button class="btn btn-secondary f-size-12 mb-1" type="submit"><img class="mr-2" src="img/cancel (1).png">Редактировать</button></td>
                             </tr>
-                            <tr class="d-flex flex-wrap border-bottom border-secondary pt-1">
-                                <th scope="row" class="border-top-0 font-weight-normal col-1 py-3 mr-5 align-self-center">12345</th>
-                                <td class="border-top-0 col-3 py-3 align-self-center">Дипломная работа</td>
-                                <td class="border-top-0 col-3 py-3 mr-3 align-self-center">http://www.work5.ru/services</td>
-                                <td class="border-top-0 col-xl-4 col-12 pl-3 pl-xl-4 py-3 pr-0 align-self-center">
+                            <tr class="table-set__row d-flex flex-wrap border-secondary">
+                                <th scope="row" class="table-set__cell border-top-0 font-weight-normal col-1 py-3 mr-5 align-self-center">12345</th>
+                                <td class="table-set__cell border-top-0 col-3 py-3 px-0 align-self-center">Дипломная работа</td>
+                                <td class="table-set__cell border-top-0 col-3 py-3 px-0 px-lg-0 pl-3 align-self-center">http://www.work5.ru/services</td>
+                                <td class="table-set__cell border-top-0 col-xl-4 col-12 pl-3 pl-xl-4 py-3 pr-0 align-self-center">
                                     <button class="btn btn-success f-size-12 mr-1 mb-1" type="submit"><img class="mr-2" src="img/pencil (1).png">Редактировать</button>
                                     <button class="btn btn-secondary f-size-12 mb-1" type="submit"><img class="mr-2" src="img/cancel (1).png">Редактировать</button></td>
                             </tr>
@@ -127,26 +113,26 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title" id="exampleModalLabel">Создать магазин</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="modal-dialog modal__dialog" role="document">
+            <div class="modal-content modal__content">
+                <div class="modal-header modal__header border-0">
+                    <h5 class="modal-title modal__header-title ml-3" id="exampleModalLabel">Создать магазин</h5>
+                    <button type="button modal__header-button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true"><img class="mr-2" src="img/cancel (2).png"></span>
               </button>
                 </div>
-                <div class="modal-body bg-white rounded">
-                    <div class="container p-0">
-                        <div class="row justify-content-between">
-                            <div class="col-7 col-sm-5">
-                                <div class="row mx-auto font-weight-bold">Шаблон</div>
-                                <div class="btn-group w-100 border border-light rounded">
-                                    <button type="button" class="btn btn-white f-size-12 text-secondary">Стандартный</button>
-                                    <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="modal__body modal-body bg-white rounded p-4 pb-5">
+                    <div class="modal__body-content container p-0">
+                        <div class="modal__body-top col-12">
+                            <div class="modal__body-btn-wrap col-7">
+                                <div class="modal__body-btn-title row font-weight-bold">Шаблон</div>
+                                <div class="modal__body-btn btn-group rounded">
+                                    <button type="button" class="modal__body-btn-left btn btn-white text-secondary">Стандартный</button>
+                                    <button type="button" class="modal__body-btn-right btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                               <span class="sr-only">Toggle Dropdown</span>
                                             </button>
                                     <div class="dropdown-menu">
@@ -155,12 +141,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7 col-sm-5">
-                                <div class="row mx-auto font-weight-bold">Цветовая схема</div>
-                                <div class="btn-group w-100 border border-light rounded">
-                                    <button type="button" class="btn btn-white f-size-12 text-secondary">Классическая</button>
-                                    <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                      <span class="sr-only">Toggle Dropdown</span>
+                            <div class="modal__body-btn-wrap col-7 mr-3">
+                                <div class="modal__body-btn-title row font-weight-bold">Шаблон</div>
+                                <div class="modal__body-btn btn-group rounded">
+                                    <button type="button" class="modal__body-btn-left btn btn-white f-size-12 text-secondary">Стандартный</button>
+                                    <button type="button" class="modal__body-btn-right btn btn-white dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span class="sr-only">Toggle Dropdown</span>
                                                     </button>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Винтаж</a>
@@ -170,16 +156,12 @@
                             </div>
                         </div>
 
-                        <div class="row px-3">
-                            <form class="w-100">
-                                <div class="form-group font-weight-bold mt-2">
-                                    <label for="formGroupExampleInput">Домен</label>
-                                    <div class="container">
-                                        <div class="row">
-                                            <input type="text" class="form-control rounded-left bg-light w-75" id="formGroupExampleInput" placeholder="Например: ivangrozniy.ru">
-                                            <div class="form-control--violet font-weight-normal w-25 text-white rounded-right text-center d-flex align-items-center justify-content-center">.work5.ru</div>
-                                        </div>
-                                    </div>
+                        <div class="modal__body-middle row px-3">
+                            <form class="font-weight-bold mt-3 w-100">
+                                <label for="formGroupExampleInput">Домен</label>
+                                <div class="modal__body-middle-input-wrap row m-0">
+                                    <input type="text" class="modal__body-middle-input-txt form-control rounded-left bg-light w-75" id="formGroupExampleInput" placeholder="Например: ivangrozniy.ru">
+                                    <div class="form-control--violet font-weight-normal w-25 text-white rounded-right text-center d-flex align-items-center justify-content-center">.work5.ru</div>
                                 </div>
                             </form>
                         </div>
