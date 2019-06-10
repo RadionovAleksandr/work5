@@ -17,8 +17,8 @@
     }
     
     .my-shop__menu-wrap {
-        max-width: 18.1%;
-        flex: 0 0 18.1%;
+        max-width: 18.8%;
+        flex: 0 0 18.8%;
     }
     
     .menu-list {
@@ -28,6 +28,7 @@
     
     .menu-list__item {
         padding: 10px 0;
+        padding-left: 10px;
         padding-bottom: 16px;
     }
     
@@ -58,7 +59,7 @@
         position: absolute;
         height: 95%;
         width: 4.5px;
-        left: -8px;
+        left: -24px;
         bottom: 2.5%;
         background-color: #6666cc;
         box-shadow: 2px 1px 5px #c5c5e7;
@@ -73,10 +74,9 @@
     .main-contant {
         max-width: 81%;
         width: 1185px;
-        /* flex: 0 0 80%; */
         flex: none;
         width: 100%;
-        padding-left: 69px;
+        padding-left: 75px;
     }
     
     .main-contant__top {
@@ -144,6 +144,8 @@
     
     .main-contant__table-wrap {
         padding: 15px;
+        padding-right: 0;
+        margin-right: 30px;
         padding-bottom: 1px;
         margin-top: 15px;
         margin-left: -15px;
@@ -202,7 +204,7 @@
     .modal__dialog {
         min-width: 620px;
         top: 130px;
-        left: -80px;
+        left: -35px;
     }
     
     @media (max-width: 860px) {
@@ -223,6 +225,11 @@
     
     .modal__header-title {
         font-weight: bold;
+    }
+    
+    .modal__body {
+        padding: 28px;
+        padding-top: 24px;
     }
     
     .modal__body-top {
@@ -250,14 +257,14 @@
     }
     
     .modal__body-btn-title {
-        margin-left: 10px;
+        margin-left: 3px;
     }
     
     .modal__body-btn-left {
         width: 70%;
-        min-width: 220px;
+        min-width: 210px;
         text-align: left;
-        padding: 5px 10px;
+        /* padding: 6px 10px; */
     }
     
     .modal__body-middle-input-wrap {
@@ -266,4 +273,13 @@
     
     .modal__body-middle-input-txt {
         font-size: 14px;
+    }
+    
+    .modal__btn-cancel,
+    .modal__btn-apply {
+        width: 150px;
+    }
+    
+    .modal__body-bottom {
+        margin-bottom: 5px;
     }
